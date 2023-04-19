@@ -1,0 +1,11 @@
+.card {
+  transition: translate ease-in-out 100ms, box-shadow ease-in-out 100ms;
+  margin-top: 20px;
+}
+.card:hover,
+.card:focus {
+  /* 提升5像素 */
+  translate: 0 -5px;
+  /* 盒子阴影0  x和y向下5像素 8px模糊 0px传播  黑色 */
+  box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.3);
+}
